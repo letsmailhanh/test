@@ -7,7 +7,6 @@ branch back-end hiện đang là branch đang phát triển back-end
 
 
 ## Back-end environment setup
-
 #### 1. Update to python 3 
 ```
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
@@ -29,14 +28,13 @@ python -m pip install django-cors-headers
 ```
 pip install mysqlclient
 ```
+#### 6. done setup!
 
-#### done setup!
 
 ## run file back-end 
 ```
 python manage.py runserver
 ```
-
 ## run file front-end
 ```
 npm run serve
